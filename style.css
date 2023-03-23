@@ -11,6 +11,7 @@ body {
     background-size: cover; vai preencher toda a tela*/
 
   background: var(--bg-url) no-repeat center/cover;
+  height: 100vh;
 }
 
 body * {
@@ -165,3 +166,20 @@ footer {
   text-align: center;
   font-size: 14px;
 }
+
+
+/*   Media Queries   */
+
+@media (min-width: 700px) {
+
+  :root{
+
+    --bg-url: url(./assets/bg-desktop.jpg);
+  }
+
+  .light{
+    --bg-url: url(./assets/gb-desktop-light.jpg);
+  }
+
+}
+
